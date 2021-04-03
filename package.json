@@ -1,0 +1,27 @@
+{
+  "name": "cdo21",
+  "version": "1.0.0",
+  "description": "Chef d'oeuvre",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "lib",
+  "scripts": {
+    "test": "heroku local web",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukoloff/cdo21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukoloff/cdo21/issues"
+  },
+  "homepage": "https://github.com/ukoloff/cdo21#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
